@@ -1,0 +1,9 @@
+1.@Conditional  -core concept.
+     -@ConditionalOnClass
+     -@ConditionalOnMissingClass
+     -@ConditionalOnMissingBean
+     
+ 2.Auto Configuration with these Conditional class
+ 
+ 3.META-INF/spring.factories
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=      
